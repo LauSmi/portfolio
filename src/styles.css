@@ -5,21 +5,23 @@ body {
 section {
 
     background-color: rgb(235, 241, 180);
-    
+
 
 }
 
 .hero {
-    background-color: rgb(86, 86, 94);
-    height: 100vh;
+    background-color: rgb(173, 164, 89);
+    height: vh;
     color: white;
     font-size: 40px;
 
 }
 
 footer {
-    height: 500px;
-    background-color: black;
+    background-color: rgb(36, 52, 71);
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -33,6 +35,10 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
+}
+
+ul.show {
+    display: block;
 }
 
 li {
@@ -134,8 +140,8 @@ p {
 .project-card {
     width: 300px;
     height: 500px;
-   box-shadow: 5px 5px 20px rgb(161, 161, 161);
-   margin: 10px;
+    box-shadow: 5px 5px 20px rgb(161, 161, 161);
+    margin: 10px;
 }
 
 .project-container {
@@ -147,10 +153,19 @@ p {
     margin-top: 25px;
     width: 250px;
     border-radius: 125px;
-
 }
 
 hr {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #db6018;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

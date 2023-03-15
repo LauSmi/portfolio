@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <title>Portfolio</title>
     <meta charset="UTF-8" />
 </head>
@@ -15,17 +16,19 @@
     <section class="hero">
         <nav>
             <img class="logo" src="src/images/headshot.jpg" alt="Lauren Smith's picture" />
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
+            
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Lauren Smith</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
 
             <div class="socials">
@@ -54,7 +57,7 @@
     </section>
 
 
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p> Hello, my name is Lauren Smith. I am a Software Developer.</p>
@@ -65,7 +68,7 @@
     </section>
 
 
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -73,35 +76,38 @@
                 <h3>Project One</h3>
                 <p class="subtext">This is my project and some text about it.</p>
                 <hr />
-                <p class="subtext">View here</p>
+                <p class="subtext"><a class="project-link" href="https://github.com/LauSmi"> View here></a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image" />
                 <h3>Project Two</h3>
                 <p class="subtext">This is my project and some text about it.</p>
                 <hr />
-                <p class="subtext">View here</p>
+                <p class="subtext"><a class="project-link" href="https://github.com/LauSmi"> View here></a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image" />
                 <h3>Project Three</h3>
                 <p class="subtext">This is my project and some text about it.</p>
                 <hr />
-                <p class="subtext">View here</p>
+                <p class="subtext"><a class="project-link" href="https://github.com/LauSmi"> View here></a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image" />
                 <h3>Project Four</h3>
                 <p class="subtext">This is my project and some text about it.</p>
                 <hr />
-                <p class="subtext">View here</p>
+                <p class="subtext"><a class="project-link" href="https://github.com/LauSmi"> View here></a></p>
             </div>
         </div>
     </section>
 
 
 
-    <footer></footer>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>lauren.smi001@gmail.com</p>
+    </footer>
 
 
 
