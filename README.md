@@ -1,7 +1,7 @@
 # Portfolio Webpage
 
 # Description:
-This website is a portfolio showcasing my work as a Full Stack Developer. As I progress, I will add additional HTML, CSS, and JavaScript with links to projects and info.  I created this website with the help of a step-by-step tutorial by Ania Kubow on YouTube, while making the code and website my own by changing fonts, colors, placements, photos and links etc.   Link to website: https://lausmi.github.io/portfolio/#about-me   Link to GitHub: https://github.com/LauSmi/portfolio
+This website is a portfolio showcasing my work as a Full Stack Developer. As I progress, I will add additional HTML, CSS, and JavaScript with links to projects and info. Link to website: https://lausmi.github.io/portfolio/#about-me   Link to GitHub: https://github.com/LauSmi/portfolio
 
 
 # Screenshot
